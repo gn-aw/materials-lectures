@@ -1,0 +1,30 @@
+import math
+x = 17
+y = 5
+print("ex_1")
+print(f"operaiton:x + y resutl:{x + y} type:{type(x + y)}")
+print(f"operaiton:x - y resutl:{x - y} type:{type(x - y)}")
+print(f"operaiton:x * y resutl:{x * y} type:{type(x * y)}")
+print(f"operaiton:x / y resutl:{x / y} type:{type(x / y)}")
+print(f"operaiton:x // y resutl:{x // y} type:{type(x // y)}")
+print(f"operaiton:x % y resutl:{x % y} type:{type(x % y)}")
+print(f"operaiton:x ** y resutl:{x ** y} type:{type(x ** y)}")
+print("ex_2")
+a = 2 ** 100
+print(a)
+print(f"type: {type(a)}")
+print("ex_3")
+result = 0.1 + 0.2
+print(result)
+print(result == 0.3)
+print(result - 0.3)
+print(math.isclose(result, 0.3))
+print("ex_4")
+print(f"op_1: res: {int("42")} type: {type(int("42"))}")
+print(f"op_2: res: {float("3.14")} type: {type(float("3.14"))}")
+print(f"op_3: res: {str(2026)} type: {type(str(2026))}")
+print(f"op_4: res: {bool(0)} type: {type(bool(0))}")
+print(f"op_5: res: {bool(-1)} type: {type(bool(-1))}")
+print(f"op_6: res: {bool("")} type: {type(bool(""))}")
+print(f"op_7: res: {bool("False")} type: {type(bool("False"))}")
+print(f"op_8: res: imag({complex(2, -3).imag}) real({complex(2, -3).real}) type: {type(complex(2, -3))}")
